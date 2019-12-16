@@ -11,9 +11,12 @@ class Cat
   end 
   
   def meow=(meow)
-    puts "meow!"
+    @meow =  "meow!"
   end 
   
+  def meow 
+    @meow
+  end
 end 
 
 maru = Cat.new
