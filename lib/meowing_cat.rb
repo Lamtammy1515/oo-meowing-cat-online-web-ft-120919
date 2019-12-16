@@ -16,6 +16,9 @@ class Cat
     puts "meow!"
   end 
   
+  def meow 
+    @meow 
+  end 
 
 end 
 
